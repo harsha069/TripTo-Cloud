@@ -1,0 +1,107 @@
+/*----------------color-----------*/
+background: #CC8C18;
+color: #CC8C18;
+
+background: #F5E8D1;
+
+
+/*----------------font family-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+font-family: 'Great Vibes', cursive;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+font-family: 'Poppins', sans-serif;
+
+box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+
+/*----------------image-----------*/
+
+
+/*----------------icon-----------*/
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-youtube"></i>
+
+<i class="fas fa-map-marker-alt"></i>
+
+
+<i class="fas fa-arrow-circle-right"></i>
+
+<i class='far fa-long-arrow-alt-left'></i>
+
+
+<i class="fas fa-shipping-fast"></i>
+<i class="fas fa-mug-hot"></i>
+<i class="fas fa-car"></i>
+<i class="far fa-water"></i>
+parkn ipsum dolor sit amet, consectetur adiing elit sed do eiu
+
+
+<i class="fas fa-desktop"></i>
+<i class="fas fa-dollar-sign"></i>
+<i class="fab fa-resolving"></i>
+<i class="fal fa-alarm-clock"></i>
+<i class="fas fa-mug-hot"></i>
+<i class="fas fa-user-tie"></i>
+
+
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+
+
+<i class="fal fa-alarm-clock"> </i>
+<i class="fad fa-bullseye-arrow"> </i>
+
+
+<i class="fas fa-angle-double-right"></i>
+
+
+<li><i class="fas fa-angle-double-right"></i>Big Data</li>
+<li><i class="fas fa-angle-double-right"></i>Wellness</li>
+<li><i class="fas fa-angle-double-right"></i>Spa Gallery</li>
+<li><i class="fas fa-angle-double-right"></i>Reservation</li>
+<li><i class="fas fa-angle-double-right"></i>FAQ</li>
+<li><i class="fas fa-angle-double-right"></i>Contact</li>
+
+
+<li><i class="fas fa-angle-double-right"></i>Restaurant</li>
+<li><i class="fas fa-angle-double-right"></i>Swimming Pool</li>
+<li><i class="fas fa-angle-double-right"></i>Wellness & Spa</li>
+<li><i class="fas fa-angle-double-right"></i>Conference Room</li>
+<li><i class="fas fa-angle-double-right"></i>Events</li>
+<li><i class="fas fa-angle-double-right"></i>Adult Room</li>
+
+<section class="wrapper">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="heading">
+            <h5>THE CITY VIEW</h5>
+            <h3>A charming view of the city</h3>
+          </div>
+          <p>Visakhapatnam... The cynosure of all eyes!! Come discover the story behind this Jewel on the East Coast.</p>
+          <p>Once a small fishing village, Visakhapatnam had witnessed the reigns of Ashoka, the Pallavas, the Cholas and the Gangas. Today you can see the country's largest shipbuilding yard with natural harbor and beach, stretching endlessly against the backdrop of low hills and dotted with secluded caves and creeks.</p>
+          <p>The picturesque beaches and the 30 km's long Bheemili-Visakhapatnam coastal road that runs along the sea offer scenes of breathtaking beauty.</p>
+        </div>
+        <div class="item">
+          <div class="heading">
+            <h5>THE CITY VIEW</h5>
+            <h3>A charming view of the city</h3>
+          </div>
+          <p><h3>SIMHACHALAM</h3> 
+            Simhadri or Simhachalam is a Hindu temple located in Visakhapatnam city suburb of Simhachalam in Andhra Pradesh, India. It is dedicated to Lord Narasimha (the man-lion), an incarnation (avatar) of Lord Vishnu. The architectural style of the temple's central shrine is Oriya while its entrance is Dravidian.</p>
+            
+            
+            
+            <p><h3>BAVIKONDA</h3>
+              Bavikonda Buddhist Complex (17 49 N - 83 23 E) lies about 16 km from Visakhapatnam, in the Indian state of Andhra Pradesh, on a hill about 130 meters above mean sea level. The term Bavikonda in Telugu means a hill of wells. As per its name, Bavikonda is a hill which has wells for the collection of rainwater. Bavikonda Monastery dates back to the 3rd century BC.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+

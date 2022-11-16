@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>TripTo - Packages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="public\css\package.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+
+</head>
+
+<body>
+  <section class="head">
+    <div class="container flex1">
+      <div class="scoial">
+        <a href="https://www.facebook.com/profile.php?id=100083652224979" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/TripToTours?t=Y33zk3iv9IAGBtHmAEL_jg&s=09" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/tripto.tours/" class="fab fa-instagram"></a>
+        <a href="https://youtube.com/channel/UCXdY7ABF5fWUIn6R1T1_SOg" class="fab fa-youtube"></a>
+      </div>
+      <div class="logo">
+        <a href="../page/index.html">
+          Trip<span>To</span>
+        </a>
+      </div>
+      <div class="address">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Viskhapatanam,India</span>
+      </div>
+    </div>
+  </section>
+
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar flex1">
+        <div class="sticky_logo logo">
+          <a href="../page/index.html">
+            Trip<span>To</span>
+          </a>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="active"><a href="homepage.html">Home</a></li>
+					<li><a href="../page/page.html"><i class=""></i> Destinations</a></li>
+			    <li><a href="../page/package.html"><i class=""></i> Packages</a></li>
+					<li><a href="../page/signup.html"><i class=""></i> Sign Up</a></li>
+          <li><a href="../page/login.html"><i class="fa fa-fw fa-user"></i> Login</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        
+      </nav>
+    </div>
+  </header>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobliemmenu);
+
+    function mobliemmenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0)
+    })
+  </script>
+
+
+  <section class="home" id="home">
+    <div class="container">
+      <h1>TripTo Memories</h1>
+      <p>We Provide The Best Packages Over Viskhapatanam</p>
+
+      <div class="content grid">
+        <div class="box">
+          <span>ARRIVAL DATE </span> <br>
+          <input type="date" placeholder="DD/MM/YYYY">
+        </div>
+        <div class="box">
+          <span>DEPARTURE DATE </span> <br>
+          <input type="date" placeholder="DD/MM/YYYY">
+        </div>
+        <div class="box">
+          <span>ADULTS</span> <br>
+          <input type="number" placeholder="01">
+        </div>
+        <div class="box">
+          <span>CHILDREN </span> <br>
+          <input type="number" placeholder="01">
+        </div>
+        <div class="box">
+          <a href = "/index.html" ><button class="flex1">
+            Check Availability
+            <i class="fas fa-arrow-circle-right"></i>
+          </button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="heading">
+        <h5>EXPLORE</h5>
+        <h2>TripTo Provides best Comfortable packages
+        </h2>
+      </div>
+
+      <div class="content flex  top">
+        <div class="left">
+          <h3>As much as comfort want to get from us everything
+          </h3>
+          <p>We Provide The Flexible Packages To You</p>
+          <p>As We Mentioned U Can Choose the Packages In The Menu</p>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+        <div class="right">
+          <img src="../image/a.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+  <section class="wrapper2">
+    <div class="container">
+      <div class="heading mtop">
+        <h5>FACILITIES</h5>
+        <h2>Giving entirely awesome </h2>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>Pick Up & Drop</h3>
+        
+          <span class='far fa-long-arrow-alt-right'></span>
+        </div>
+        <div class="box">
+          <i class="fas fa-mug-hot"></i>
+          <h3>Pick Up & Drop</h3>
+         
+          <span class='far fa-long-arrow-alt-right'></span>
+        </div>
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>Pick Up & Drop</h3>
+      
+          <span class='far fa-long-arrow-alt-right'></span>
+        </div>
+        <div class="box">
+          <i class="far fa-water"></i>
+          <h3>Pick Up & Drop</h3>
+       
+          <span class='far fa-long-arrow-alt-right'></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="room wrapper2 top" id="room">
+    <div class="container">
+      <div class="heading">
+        <h5>OUR Packages</h5>
+        <h2>Fascinating Places & Rooms </h2>
+      </div>
+      <div class="content flex mtop">
+        <div class="left grid2">
+          <div class="box">
+            <i class="fas fa-desktop"></i>
+            <p>low Cost</p>
+            <h3>Low booking fee</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-dollar-sign"></i>
+            <p>Best Cost</p>
+            <h3>Best rate guarantee</h3>
+          </div>
+          <div class="box">
+            <i class="fab fa-resolving"></i>
+            <p>suitable Cost</p>
+            <h3>Reservations 24/7</h3>
+          </div>
+          <div class="box">
+            <i class="fal fa-alarm-clock"></i>
+            <p>Given Cost</p>
+            <h3>High-speed Wi-Fi</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-mug-hot"></i>
+            <p>As Per Cost</p>
+            <h3>Choice breakfast</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-user-tie"></i>
+            <p>Comfortable Cost</p>
+            <h3>per Person</h3>
+          </div>
+        </div>
+        <div class="right">
+          <img src="../image/r.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="offer mtop" id="services">
+    <div class="container">
+      <div class="heading">
+        <h5>EXCLUSIVE Packages </h5>
+        <h3>You can get an exclusive offer </h3>
+      </div>
+
+      <div class="content grid2 mtop">
+        <div class="box flex">
+          <div class="left">
+            <img src="../image/o1.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Araku 2D - Hill Station</h4>
+            <div class="rate flex">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              <span>
+                <i class="fa fa-angle-right"></i> 2 Days 1 Night
+              </span>
+              <i class="fa fa-angle-right"></i> Accomodation
+            </p>
+            <p>
+              <span>
+                <i class="fa fa-angle-right"></i>  transportation
+              </span>
+              <i class="fa fa-angle-right"></i>  food facilities
+             </p>
+            <h5>From Rs.5500</h5>
+            <button class="flex1">
+              <span>Check Availability</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="../image/o2.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Araku 3D - Lamabasangi</h4>
+            <div class="rate flex">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              <span>
+                <i class="fa fa-angle-right"></i> 3 day 2 Nights
+              </span>
+              <i class="fa fa-angle-right"></i> accomodation
+            </p>
+            <p>
+              <span>
+                <i class="fa fa-angle-right"></i>  transportation
+              </span>
+              <i class="fa fa-angle-right"></i>  food facilities
+             </p>
+            <h5>From $50.6/night</h5>
+            <button class="flex1">
+              <span>Check Availability</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="../image/o3.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Vishakapatnam 2D - Beach Treat</h4>
+            <div class="rate flex">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              <span>
+                <i class="fa fa-angle-right"></i> 2 days 1 Night
+              </span>
+              <i class="fa fa-angle-right"></i> Accomodation
+            </p>
+            <p>
+              <span>
+                <i class="fa fa-angle-right"></i>  transportation
+              </span>
+              <i class="fa fa-angle-right"></i>  food facilities
+             </p>
+            <h5>From $50.6/night</h5>
+            <button class="flex1">
+              <span>Check Availability</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="../image/o4.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Viskhapatnam 3D - Port</h4>
+            <div class="rate flex">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              <span>
+                <i class="fa fa-angle-right"></i> 3 days 2 nights
+              </span>
+              <i class="fa fa-angle-right"></i>  accomodation
+            </p>
+            <p>
+              <span>
+                <i class="fa fa-angle-right"></i>  transportation
+              </span>
+              <i class="fa fa-angle-right"></i>  food facilities
+             </p>
+            <h5>From $50.6/night</h5>
+            <button class="flex1">
+              <span>Check Availability</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="offer2 about wrapper timer top" id="shop">
+    <div class="container">
+      <div class="heading">
+        <h5>EXCLUSIVE OFFERS </h5>
+        <h3>You can get an exclusive offer </h3>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <h5>UP TO 30% OFF</h5>
+          <h3>Viskhapatnam 3D - Port</h3>
+          <span>4.5 <label>(432 Reviews)</label> </span>
+          <p>
+            <span>
+              <i class="fa fa-angle-right"></i> 3 days 2 nights
+            </span>
+            <i class="fa fa-angle-right"></i>  accomodation
+          </p>
+          <p>
+            <span>
+              <i class="fa fa-angle-right"></i>  transportation
+            </span>
+            <i class="fa fa-angle-right"></i>  food facilities
+           </p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+        <div class="box">
+          <h5>UP TO 30% OFF</h5>
+          <h3>Vishakapatnam 2D - Beach Treat</h3>
+          <span>4.5 <label>(432 Reviews)</label> </span>
+          <p>
+            <span>
+              <i class="fa fa-angle-right"></i> 2 days 1 Night
+            </span>
+            <i class="fa fa-angle-right"></i> Accomodation
+          </p>
+          <p>
+            <span>
+              <i class="fa fa-angle-right"></i>  transportation
+            </span>
+            <i class="fa fa-angle-right"></i>  food facilities
+           </p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+        <div class="box">
+          <h5>UP TO 30% OFF</h5>
+          <h3>Araku 2D - Hill Station</h3>
+          <span>4.5 <label>(432 Reviews)</label> </span>
+          <p>
+            <span>
+              <i class="fa fa-angle-right"></i> 2 Days 1 Night
+            </span>
+            <i class="fa fa-angle-right"></i> Accomodation
+          </p>
+          <p>
+            <span>
+              <i class="fa fa-angle-right"></i>  transportation
+            </span>
+            <i class="fa fa-angle-right"></i>  food facilities
+           </p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: false,
+      navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+  <section class="gallary top" id="gallary">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="../image/g1.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../image/g2.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../image/g3.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../image/g4.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../image/g5.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../image/g1.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../image/g2.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../image/g3.jpg" alt="">
+        <div class="overlay">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      slideTransition: 'linear',
+      autoplayTimeout: 4000,
+      autoplaySpeed: 4000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+
+
+ 
+
+
+  <footer>
+    
+      
+
+      <div class="content grid  top">
+        <div class="box">
+          <div class="logo">
+            <a href="/index.html">
+              Trip<span>To</span>
+            </a>
+          </div>
+          
+          <div class="social flex">
+            <li><a href="https://www.facebook.com/profile.php?id=100083652224979"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/TripToTours?t=Y33zk3iv9IAGBtHmAEL_jg&s=09"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/tripto.tours/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100083652224979"><i class="fab fa-youtube"></i></a></li>
+          </div>
+        </div>
+
+
+        <div class="box">
+          <h2>Services</h2>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>Visakhapatnam</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+123 456 7898</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>hello@tripto.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>
